@@ -1,4 +1,4 @@
-class Tosa < Formula
+class Ghkw < Formula
   desc "Search how many keywords in GitHub Code tool"
   homepage "https://github.com/kyoshidajp/ghkw"
   version 'v0.0.1'
