@@ -1,14 +1,14 @@
 class Ghkw < Formula
   desc "Search how many keywords in GitHub Code tool"
   homepage "https://github.com/kyoshidajp/ghkw"
-  version 'v0.1.0'
+  version 'v0.2.0'
 
   if Hardware::CPU.is_64_bit?
-    url "https://github.com/kyoshidajp/ghkw/releases/download/v0.1.0/ghkw_darwin_amd64.zip"
-    sha256 "ff2e75126398bc4ed7c5fef41ed0666d4b56f1800a12dfe37c3a3f38100ad403"
+    url "https://github.com/kyoshidajp/ghkw/releases/download/v0.2.0/ghkw_darwin_amd64.zip"
+    sha256 "3f2186cf1b7d60d19dcc6ec466281abe4e067c190eb2b96ba0ad31233d77bf6c"
   else
-    url "https://github.com/kyoshidajp/ghkw/releases/download/v0.1.0/ghkw_darwin_386.zip"
-    sha256 "be1d3abaad944936eca1c67c1cfe65e320f14237e0b10780c25a541f52b99ff6"
+    url "https://github.com/kyoshidajp/ghkw/releases/download/v0.2.0/ghkw_darwin_386.zip"
+    sha256 "de5788fad3261a24d34c798d0b6b2cd71d8e8bfd3b7283c1e118b09e2ab98094"
   end
 
   def install
